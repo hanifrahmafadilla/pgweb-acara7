@@ -1,14 +1,17 @@
 <?php
-$x = 100;
-$y = 50;
+// Deklarasi variabel
+$x = 85;
+$y = 65;
 
-if ($x == 100 && $y == 80) {
-    echo "Masuk sini <br>";
-} elseif ($x == 100) {
-    echo "Masuk sini 2 <br>";
+// Logika percabangan
+if ($x >= 75 || $y >= 80) {
+    echo "Siswa dinyatakan lulus <br>";
+} elseif ($x >= 60) {
+    echo "Siswa perlu mengikuti remedial <br>";
 } else {
-    echo "Masuk keranjang <br>";
+    echo "Siswa belum lulus <br>";
 }
-echo "Program selesai";
 
+// Menampilkan pesan akhir
+echo "Proses penilaian selesai";
 ?>

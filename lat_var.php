@@ -1,16 +1,28 @@
-<?php 
-    $pesan = "Selamat belajar";
-    //echo "Selamat datang" .$pesan;
+<?php
+// Menampilkan pesan
+$pesan = "Selamat belajar PHP!";
+echo "Halo, " . $pesan;
+echo "<br>";
 
-    $cars = array("Volvo", "BMW", "Toyota");
-    echo $cars[1];
+// Menampilkan data array
+$mobil = array("Toyota", "Yamaha", "Honda");
+echo $mobil[2] . "<br>";
 
-    $x = $x + $y;
-    $x += $y;
+// Operasi penjumlahan
+$a = 10;
+$b = 5;
+$a = $a + $b;
+echo $a . "<br>";
 
-    $x = $x . $y;
-    $x .= $y;
+// Penjumlahan singkat
+$a += $b;
+echo $a . "<br>";
 
-    $x++;
-    $x += $y;
+// Menggabungkan angka menjadi teks
+$a = $a . $b;
+echo $a . "<br>";
+
+// Menggabungkan teks secara singkat
+$a .= $b;
+echo $a;
 ?>
